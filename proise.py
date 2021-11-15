@@ -5,6 +5,7 @@
 import numpy as np
 import random
 from sklearn.decomposition import PCA
+from scipy.ndimage import gaussian_filter
 
 def test():
     return (u'test test test')
